@@ -8,7 +8,7 @@ from app.schemas.chat import (
     ConversationCreate,
     ConversationUpdate,
     ConversationResponse,
-    ConversationList 
+    ConversationList
 )
 from app.core.security import get_current_user, get_current_active_user
 from app.services import chat_service
